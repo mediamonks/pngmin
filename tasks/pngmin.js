@@ -11,7 +11,7 @@
 module.exports = function(grunt) {
 
     var path = require('path'),
-        fs   = require('fs'),
+        fs   = require('graceful-fs'),
         tmp  = require('tmp'),
         filesize = require('filesize'),
         which = require('which'),

@@ -38,6 +38,7 @@
   ],
   "dependencies": {
     "filesize": "^3.3.0",
+    "graceful-fs": "^4.1.2",
     "pngquant-bin": "^3.1.0",
     "tmp": "~0.0.28",
     "which": "^1.2.9"
